@@ -26,7 +26,7 @@ export default function Navbar() {
       <nav className="bg-dark shadow-md text-white">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <Link to="/" className="text-2xl font-semibold text-decoration-none">
-            Sanket Portfolio
+            Sanket Patil
           </Link>
           <button
             className="md:hidden text-white focus:outline-none"

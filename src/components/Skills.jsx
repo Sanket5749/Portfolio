@@ -11,7 +11,7 @@ const skills = [
   { img: "/c.png", title: "c" },
   { img: "/python.png", title: "python" },
   { img: "/java.png", title: "java" },
-  { img: "/github.png", title: "githun" }
+  { img: "/github.png", title: "github" }
 ];
 
 export default function Skills() {

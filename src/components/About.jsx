@@ -1,4 +1,5 @@
 import React from 'react';
+import {motion} from 'motion';
 
 export default function About() {
   return (
@@ -14,10 +15,18 @@ export default function About() {
         </p>
       </div>
       <div className="col-md-6">
-        <img
-          src="/myPic.webp"
-          alt="Sanket Patil"
-          className="img-fluid"
+        <motion.img
+        initial={{ y: -10 }}
+        animate={{ y: 10 }}
+        transition={{
+        duration: 2,
+        repeat: Infinity,
+        repeatType: "reverse",
+        ease: "easeInOut"
+        }}
+        src="/myPic.webp"
+        alt="Sanket Patil"
+        className="img-fluid"
         />
       </div>
     </div>

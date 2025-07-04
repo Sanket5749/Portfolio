@@ -17,7 +17,7 @@ export default function About() {
         <img
           src="/myPic.webp"
           alt="Sanket Patil"
-          className="img-fluid rounded-lg shadow-lg"
+          className="img-fluid"
         />
       </div>
     </div>

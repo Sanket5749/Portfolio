@@ -9,7 +9,7 @@ export default function About() {
         <div className="row align-items-center">
           <div className="col-md-6 mb-4 md:mb-0">
             <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
-              I am Sanket Patil
+             Hi I am Sanket Patil
             </h2>
             <p className="text-lg leading-relaxed text-gray-300">
               As a passionate Computer Engineering student currently pursuing my

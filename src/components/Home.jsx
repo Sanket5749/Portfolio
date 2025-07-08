@@ -6,12 +6,8 @@ import Skills from "./Skills";
 
 export default function Home() {
  useEffect(() => {
-  const synth = window.speechSynthesis;
-  const speak = () => {
-    const utterance = new SpeechSynthesisUtterance("Welcome to Sanket Portfolio");
-    synth.speak(utterance);
-  };
-  setTimeout(speak, 200); 
+  const utterance = new SpeechSynthesisUtterance("Welcome to Sanket Portfolio");
+  window.speechSynthesis.speak(utterance);
 }, []);
   return (
     <>

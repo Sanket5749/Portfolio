@@ -19,6 +19,7 @@ export default function About() {
         </div>
 
         <motion.img
+          drag
           initial={{ y: -10 }}
           animate={{ y: 10 }}
           transition={{

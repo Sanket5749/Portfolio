@@ -19,7 +19,14 @@ export default function About() {
         </div>
 
         <motion.img
-          drag
+           initial={{ y: -10 }}
+          animate={{ y: 10 }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "easeInOut",
+          }}
           src="/myPic.png"
           alt="Sanket Patil"
           className="w-80 h-80 object-cover"

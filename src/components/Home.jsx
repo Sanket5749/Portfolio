@@ -5,10 +5,14 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 
 export default function Home() {
-  useEffect(()=>{
+ useEffect(() => {
+  const synth = window.speechSynthesis;
+  const speak = () => {
     const utterance = new SpeechSynthesisUtterance("Welcome to Sanket Portfolio");
-   window.speechSynthesis.speak(utterance);
-  },[]);
+    synth.speak(utterance);
+  };
+  setTimeout(speak, 200); 
+}, []);
   return (
     <>
       <About/>

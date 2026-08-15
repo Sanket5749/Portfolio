@@ -37,7 +37,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <CarouselItem key={index}>
               <div className="p-1">
-                <Card className="transition-transform duration-300 hover:scale-105">
+                <Card className="transition-transform duration-300 hover:scale-105 bg-white">
                   <CardContent className="flex flex-col items-center justify-center p-4 gap-4">
                     <h1>{project.title}</h1>
                     <img
@@ -52,8 +52,8 @@ export default function Projects() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="text-black" />
-        <CarouselNext className="text-black" />
+        <CarouselPrevious className="text-black bg-white" />
+        <CarouselNext className="text-black bg-white" />
       </Carousel>
     </div>
                     

@@ -35,7 +35,7 @@ export default function Contact() {
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-40 justify-center items-center max-w-3xl mt-6">
+      <div className="flex flex-wrap gap-16 justify-center items-center max-w-3xl mt-6">
         {contactInfo.map((info, idx) => (
           <HoverCard.Root key={idx}>
             <HoverCard.Trigger asChild>
